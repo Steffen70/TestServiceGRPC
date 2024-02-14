@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "lMPJSxAzKpiFGSUM0A4BOyriSQtBASkLj13MrjqNhK/XkdPeLTdHhaNJl5TpZrL6W2gsk8xcZ/n45C5bfM+aoQ==",
+  "dgSpecHash": "JNWu/Neu2+Jd5Uet870hQhJA5hejseQtQUX3OqTCJBp2msWkSFCvjeKi1YE90yBAAbPN3TvBcsxzFZSbKqRgIw==",
   "success": true,
   "projectFilePath": "C:\\Users\\dionys.steffen\\source\\repos\\TestServiceGRPC\\TestConsoleClient\\TestConsoleClient.csproj",
   "expectedPackageFiles": [

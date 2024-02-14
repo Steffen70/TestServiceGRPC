@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\dionys.steffen\\source\\repos\\TestServiceGRPC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9BE3F188-4826-4F85-8C82-4A9042C39F01}|TestServiceGRPC\\TestServiceGRPC.csproj|c:\\users\\dionys.steffen\\source\\repos\\testservicegrpc\\testservicegrpc\\testservicegrpc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{9BE3F188-4826-4F85-8C82-4A9042C39F01}|TestServiceGRPC\\TestServiceGRPC.csproj|solutionrelative:testservicegrpc\\testservicegrpc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B8605065-D799-421D-A708-088033139DF9}|TestConsoleClient\\TestConsoleClient.csproj|c:\\users\\dionys.steffen\\source\\repos\\testservicegrpc\\testconsoleclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8605065-D799-421D-A708-088033139DF9}|TestConsoleClient\\TestConsoleClient.csproj|solutionrelative:testconsoleclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9BE3F188-4826-4F85-8C82-4A9042C39F01}|TestServiceGRPC\\TestServiceGRPC.csproj|c:\\users\\dionys.steffen\\source\\repos\\testservicegrpc\\testservicegrpc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BE3F188-4826-4F85-8C82-4A9042C39F01}|TestServiceGRPC\\TestServiceGRPC.csproj|solutionrelative:testservicegrpc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8F704DAF-F2F0-4488-8377-2842092FDFF0}|Protos{8F704DAF-F2F0-4488-8377-2842092FDFF0}|C:\\Users\\dionys.steffen\\source\\repos\\TestServiceGRPC\\Protos\\greet.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{8F704DAF-F2F0-4488-8377-2842092FDFF0}|Protos{8F704DAF-F2F0-4488-8377-2842092FDFF0}|solutionrelative:Protos\\greet.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8605065-D799-421D-A708-088033139DF9}|TestConsoleClient\\TestConsoleClient.csproj|c:\\users\\dionys.steffen\\source\\repos\\testservicegrpc\\testconsoleclient\\testconsoleclient.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B8605065-D799-421D-A708-088033139DF9}|TestConsoleClient\\TestConsoleClient.csproj|solutionrelative:testconsoleclient\\testconsoleclient.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE3F188-4826-4F85-8C82-4A9042C39F01}|TestServiceGRPC\\TestServiceGRPC.csproj|c:\\users\\dionys.steffen\\source\\repos\\testservicegrpc\\testservicegrpc\\testservicegrpc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9BE3F188-4826-4F85-8C82-4A9042C39F01}|TestServiceGRPC\\TestServiceGRPC.csproj|solutionrelative:testservicegrpc\\testservicegrpc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D13D65C-3BB6-4BFD-BB8B-AE9DB97573BD}|CommonLib\\CommonLib.csproj|c:\\users\\dionys.steffen\\source\\repos\\testservicegrpc\\commonlib\\commonlib.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4D13D65C-3BB6-4BFD-BB8B-AE9DB97573BD}|CommonLib\\CommonLib.csproj|solutionrelative:commonlib\\commonlib.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9BE3F188-4826-4F85-8C82-4A9042C39F01}|TestServiceGRPC\\TestServiceGRPC.csproj|c:\\users\\dionys.steffen\\source\\repos\\testservicegrpc\\testservicegrpc\\services\\greeterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9BE3F188-4826-4F85-8C82-4A9042C39F01}|TestServiceGRPC\\TestServiceGRPC.csproj|solutionrelative:testservicegrpc\\services\\greeterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE3F188-4826-4F85-8C82-4A9042C39F01}|TestServiceGRPC\\TestServiceGRPC.csproj|c:\\users\\dionys.steffen\\source\\repos\\testservicegrpc\\testservicegrpc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BE3F188-4826-4F85-8C82-4A9042C39F01}|TestServiceGRPC\\TestServiceGRPC.csproj|solutionrelative:testservicegrpc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9BE3F188-4826-4F85-8C82-4A9042C39F01}|TestServiceGRPC\\TestServiceGRPC.csproj|c:\\users\\dionys.steffen\\source\\repos\\testservicegrpc\\testservicegrpc\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -27,8 +39,8 @@
       "RelativeMoniker": "D:0:0:{4D13D65C-3BB6-4BFD-BB8B-AE9DB97573BD}|CommonLib\\CommonLib.csproj|solutionrelative:commonlib\\datatableconversionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4D13D65C-3BB6-4BFD-BB8B-AE9DB97573BD}|CommonLib\\CommonLib.csproj|c:\\users\\dionys.steffen\\source\\repos\\testservicegrpc\\commonlib\\commonlib.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{4D13D65C-3BB6-4BFD-BB8B-AE9DB97573BD}|CommonLib\\CommonLib.csproj|solutionrelative:commonlib\\commonlib.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{70866973-EAB7-4160-8315-8250D2F573CF}|Scripts{70866973-EAB7-4160-8315-8250D2F573CF}|C:\\Users\\dionys.steffen\\source\\repos\\TestServiceGRPC\\Scripts\\test_grpc_client.ps1||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{70866973-EAB7-4160-8315-8250D2F573CF}|Scripts{70866973-EAB7-4160-8315-8250D2F573CF}|solutionrelative:Scripts\\test_grpc_client.ps1||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,7 +74,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
+              "Title": "test_grpc_client.ps1",
+              "DocumentMoniker": "C:\\Users\\dionys.steffen\\source\\repos\\TestServiceGRPC\\Scripts\\test_grpc_client.ps1",
+              "RelativeDocumentMoniker": "Scripts\\test_grpc_client.ps1",
+              "ToolTip": "C:\\Users\\dionys.steffen\\source\\repos\\TestServiceGRPC\\Scripts\\test_grpc_client.ps1",
+              "RelativeToolTip": "Scripts\\test_grpc_client.ps1",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-02-14T16:54:34.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TestConsoleClient.csproj",
+              "DocumentMoniker": "C:\\Users\\dionys.steffen\\source\\repos\\TestServiceGRPC\\TestConsoleClient\\TestConsoleClient.csproj",
+              "RelativeDocumentMoniker": "TestConsoleClient\\TestConsoleClient.csproj",
+              "ToolTip": "C:\\Users\\dionys.steffen\\source\\repos\\TestServiceGRPC\\TestConsoleClient\\TestConsoleClient.csproj",
+              "RelativeToolTip": "TestConsoleClient\\TestConsoleClient.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-02-14T16:52:55.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "greet.proto",
+              "DocumentMoniker": "C:\\Users\\dionys.steffen\\source\\repos\\TestServiceGRPC\\Protos\\greet.proto",
+              "RelativeDocumentMoniker": "Protos\\greet.proto",
+              "ToolTip": "C:\\Users\\dionys.steffen\\source\\repos\\TestServiceGRPC\\Protos\\greet.proto",
+              "RelativeToolTip": "Protos\\greet.proto",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2024-02-14T15:19:11.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\dionys.steffen\\source\\repos\\TestServiceGRPC\\TestServiceGRPC\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "TestServiceGRPC\\Properties\\launchSettings.json",
@@ -74,19 +122,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\dionys.steffen\\source\\repos\\TestServiceGRPC\\TestConsoleClient\\Program.cs",
               "RelativeDocumentMoniker": "TestConsoleClient\\Program.cs",
               "ToolTip": "C:\\Users\\dionys.steffen\\source\\repos\\TestServiceGRPC\\TestConsoleClient\\Program.cs",
               "RelativeToolTip": "TestConsoleClient\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAYAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-14T13:09:43.952Z"
+              "WhenOpened": "2024-02-14T13:09:43.952Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\dionys.steffen\\source\\repos\\TestServiceGRPC\\TestServiceGRPC\\Program.cs",
               "RelativeDocumentMoniker": "TestServiceGRPC\\Program.cs",
@@ -98,33 +147,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "TestServiceGRPC.csproj",
               "DocumentMoniker": "C:\\Users\\dionys.steffen\\source\\repos\\TestServiceGRPC\\TestServiceGRPC\\TestServiceGRPC.csproj",
               "RelativeDocumentMoniker": "TestServiceGRPC\\TestServiceGRPC.csproj",
               "ToolTip": "C:\\Users\\dionys.steffen\\source\\repos\\TestServiceGRPC\\TestServiceGRPC\\TestServiceGRPC.csproj",
               "RelativeToolTip": "TestServiceGRPC\\TestServiceGRPC.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-02-14T12:30:50.683Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-14T12:30:50.683Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "CommonLib.csproj",
               "DocumentMoniker": "C:\\Users\\dionys.steffen\\source\\repos\\TestServiceGRPC\\CommonLib\\CommonLib.csproj",
               "RelativeDocumentMoniker": "CommonLib\\CommonLib.csproj",
               "ToolTip": "C:\\Users\\dionys.steffen\\source\\repos\\TestServiceGRPC\\CommonLib\\CommonLib.csproj",
               "RelativeToolTip": "CommonLib\\CommonLib.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-02-14T12:30:46.902Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-14T12:30:46.902Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "DataTableConversionExtensions.cs",
               "DocumentMoniker": "C:\\Users\\dionys.steffen\\source\\repos\\TestServiceGRPC\\CommonLib\\DataTableConversionExtensions.cs",
               "RelativeDocumentMoniker": "CommonLib\\DataTableConversionExtensions.cs",
@@ -136,13 +183,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "GreeterService.cs",
               "DocumentMoniker": "C:\\Users\\dionys.steffen\\source\\repos\\TestServiceGRPC\\TestServiceGRPC\\Services\\GreeterService.cs",
               "RelativeDocumentMoniker": "TestServiceGRPC\\Services\\GreeterService.cs",
               "ToolTip": "C:\\Users\\dionys.steffen\\source\\repos\\TestServiceGRPC\\TestServiceGRPC\\Services\\GreeterService.cs",
               "RelativeToolTip": "TestServiceGRPC\\Services\\GreeterService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwB0AAAAdAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwCAAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-14T12:20:13.157Z"
             }
