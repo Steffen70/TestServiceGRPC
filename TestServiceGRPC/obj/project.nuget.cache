@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "xrldhvYAEFX+oWjubh9RvIODl36N7+ZWyUIg8kWb9hQ5j9GSB/Vks7tbPV3ugGeosdt2Gu4MFHiQeweTAZAOhg==",
+  "dgSpecHash": "FaQE4hHLg+F8Rn3aRTPmDj3PAUmMMUrU0Wxu7bIUqwWROK0Bm+szH3eifp4ixX8cA5xUcjxC4xESvmHNZuqADg==",
   "success": true,
   "projectFilePath": "C:\\Users\\dionys.steffen\\source\\repos\\TestServiceGRPC\\TestServiceGRPC\\TestServiceGRPC.csproj",
   "expectedPackageFiles": [

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "jMF/umwNwIS5GpGqTezE2dPErVYrxC74CFMY5xRUg6o=",
+  "Source": "TestServiceGRPC",
+  "BasePath": "_content/TestServiceGRPC",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
