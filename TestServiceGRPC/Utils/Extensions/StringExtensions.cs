@@ -1,0 +1,16 @@
+﻿using System.Security.Cryptography;
+using System.Text;
+
+namespace TestServiceGRPC.Utils.Extensions;
+
+public static class StringExtensions
+{
+    public static string GetMd5Checksum(this string str)
+    {
+        var hash = MD5.HashData(Encoding.UTF8.GetBytes(str));
+
+        var hexString = string.Concat(hash.Select(b => b.ToString("X2")));
+
+        return hexString;
+    }
+}

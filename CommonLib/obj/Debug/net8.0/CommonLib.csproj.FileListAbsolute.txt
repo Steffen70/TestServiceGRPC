@@ -1,8 +1,8 @@
+C:\Users\dionys.steffen\source\repos\TestServiceGRPC\CommonLib\obj\Debug\net8.0\CommonLib.csproj.AssemblyReference.cache
+C:\Users\dionys.steffen\source\repos\TestServiceGRPC\CommonLib\obj\Debug\net8.0\CommonLib.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\dionys.steffen\source\repos\TestServiceGRPC\CommonLib\bin\Debug\net8.0\CommonLib.deps.json
 C:\Users\dionys.steffen\source\repos\TestServiceGRPC\CommonLib\bin\Debug\net8.0\CommonLib.dll
 C:\Users\dionys.steffen\source\repos\TestServiceGRPC\CommonLib\bin\Debug\net8.0\CommonLib.pdb
-C:\Users\dionys.steffen\source\repos\TestServiceGRPC\CommonLib\obj\Debug\net8.0\CommonLib.csproj.AssemblyReference.cache
-C:\Users\dionys.steffen\source\repos\TestServiceGRPC\CommonLib\obj\Debug\net8.0\CommonLib.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\dionys.steffen\source\repos\TestServiceGRPC\CommonLib\obj\Debug\net8.0\CommonLib.AssemblyInfoInputs.cache
 C:\Users\dionys.steffen\source\repos\TestServiceGRPC\CommonLib\obj\Debug\net8.0\CommonLib.AssemblyInfo.cs
 C:\Users\dionys.steffen\source\repos\TestServiceGRPC\CommonLib\obj\Debug\net8.0\CommonLib.csproj.CoreCompileInputs.cache

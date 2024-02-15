@@ -1,0 +1,40 @@
+syntax = "proto3";
+
+option csharp_namespace = "TestServiceGRPC";
+
+package auth;
+
+import "google/protobuf/empty.proto";
+
+// Define a service
+service Auth {
+  // Maps to `RenewToken`
+  rpc RenewToken(google.protobuf.Empty) returns (LoginResponse);
+
+  // Maps to `Login`
+  rpc Login(LoginRequest) returns (LoginResponse);
+
+  // Maps to `Create`
+  rpc Create(CreateRequest) returns (CreateResponse);
+}
+
+// Request message for Login
+message LoginRequest {
+  string email = 1;
+  string password = 2;
+}
+
+// Response message for Login and RenewToken
+message LoginResponse {
+  string token = 1;
+}
+
+// Request message for Create
+message CreateRequest {
+  string email = 1;
+}
+
+// Response message for Create
+message CreateResponse {
+  string password = 1;
+}

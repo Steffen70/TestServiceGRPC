@@ -9,15 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommonLib", "CommonLib\Comm
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Protos", "Protos", "{8F704DAF-F2F0-4488-8377-2842092FDFF0}"
 	ProjectSection(SolutionItems) = preProject
-		Protos\greet.proto = Protos\greet.proto
+		Protos\auth.proto = Protos\auth.proto
+		Protos\greeter.proto = Protos\greeter.proto
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestConsoleClient", "TestConsoleClient\TestConsoleClient.csproj", "{B8605065-D799-421D-A708-088033139DF9}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{70866973-EAB7-4160-8315-8250D2F573CF}"
-	ProjectSection(SolutionItems) = preProject
-		Scripts\test_grpc_client.ps1 = Scripts\test_grpc_client.ps1
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
