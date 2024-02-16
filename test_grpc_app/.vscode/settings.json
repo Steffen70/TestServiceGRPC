@@ -1,6 +1,0 @@
-{
-  "files.exclude": {
-    "**/bin": false,
-    // Include other patterns as necessary
-  }
-}

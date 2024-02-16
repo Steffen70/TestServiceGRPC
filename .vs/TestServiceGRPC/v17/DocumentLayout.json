@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{B8605065-D799-421D-A708-088033139DF9}|TestConsoleClient\\TestConsoleClient.csproj|solutionrelative:testconsoleclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{8F704DAF-F2F0-4488-8377-2842092FDFF0}|Protos{8F704DAF-F2F0-4488-8377-2842092FDFF0}|C:\\Users\\dionys.steffen\\source\\repos\\TestServiceGRPC\\Protos\\greeter.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{8F704DAF-F2F0-4488-8377-2842092FDFF0}|Protos{8F704DAF-F2F0-4488-8377-2842092FDFF0}|solutionrelative:Protos\\greeter.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9BE3F188-4826-4F85-8C82-4A9042C39F01}|TestServiceGRPC\\TestServiceGRPC.csproj|c:\\users\\dionys.steffen\\source\\repos\\testservicegrpc\\testservicegrpc\\services\\greeterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9BE3F188-4826-4F85-8C82-4A9042C39F01}|TestServiceGRPC\\TestServiceGRPC.csproj|solutionrelative:testservicegrpc\\services\\greeterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -53,10 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dionys.steffen\\source\\repos\\TestServiceGRPC\\CommonLib\\obj\\Debug\\net8.0\\AuthGrpc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CommonLib\\obj\\Debug\\net8.0\\AuthGrpc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F704DAF-F2F0-4488-8377-2842092FDFF0}|Protos{8F704DAF-F2F0-4488-8377-2842092FDFF0}|C:\\Users\\dionys.steffen\\source\\repos\\TestServiceGRPC\\Protos\\greeter.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{8F704DAF-F2F0-4488-8377-2842092FDFF0}|Protos{8F704DAF-F2F0-4488-8377-2842092FDFF0}|solutionrelative:Protos\\greeter.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8F704DAF-F2F0-4488-8377-2842092FDFF0}|Protos{8F704DAF-F2F0-4488-8377-2842092FDFF0}|C:\\Users\\dionys.steffen\\source\\repos\\TestServiceGRPC\\Protos\\auth.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
@@ -170,7 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\dionys.steffen\\source\\repos\\TestServiceGRPC\\TestServiceGRPC\\appsettings.json",
               "RelativeDocumentMoniker": "TestServiceGRPC\\appsettings.json",
@@ -178,8 +178,7 @@
               "RelativeToolTip": "TestServiceGRPC\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-02-15T17:39:26.841Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-15T17:39:26.841Z"
             },
             {
               "$type": "Document",
@@ -189,14 +188,14 @@
               "RelativeDocumentMoniker": "TestConsoleClient\\Program.cs",
               "ToolTip": "C:\\Users\\dionys.steffen\\source\\repos\\TestServiceGRPC\\TestConsoleClient\\Program.cs",
               "RelativeToolTip": "TestConsoleClient\\Program.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAACcAAABzAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAADEAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-15T17:24:45.655Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\dionys.steffen\\source\\repos\\TestServiceGRPC\\TestServiceGRPC\\Program.cs",
               "RelativeDocumentMoniker": "TestServiceGRPC\\Program.cs",
@@ -204,12 +203,11 @@
               "RelativeToolTip": "TestServiceGRPC\\Program.cs",
               "ViewState": "AQIAABUAAAAAAAAAAAAAADgAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-15T15:23:09.168Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-15T15:23:09.168Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "GreeterService.cs",
               "DocumentMoniker": "C:\\Users\\dionys.steffen\\source\\repos\\TestServiceGRPC\\TestServiceGRPC\\Services\\GreeterService.cs",
               "RelativeDocumentMoniker": "TestServiceGRPC\\Services\\GreeterService.cs",
@@ -217,12 +215,11 @@
               "RelativeToolTip": "TestServiceGRPC\\Services\\GreeterService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-15T15:09:15.472Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-15T15:09:15.472Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Users\\dionys.steffen\\source\\repos\\TestServiceGRPC\\TestServiceGRPC\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "TestServiceGRPC\\Services\\AuthService.cs",
@@ -230,8 +227,7 @@
               "RelativeToolTip": "TestServiceGRPC\\Services\\AuthService.cs",
               "ViewState": "AQIAAGUAAAAAAAAAAAAIwC8AAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-15T15:09:09.022Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-15T15:09:09.022Z"
             },
             {
               "$type": "Document",
@@ -243,8 +239,7 @@
               "RelativeToolTip": "TestServiceGRPC\\Controllers\\BaseController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-15T18:12:05.54Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-15T18:12:05.54Z"
             },
             {
               "$type": "Document",
@@ -256,8 +251,7 @@
               "RelativeToolTip": "TestServiceGRPC\\Controllers\\SessionDataController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-15T18:13:04.63Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-15T18:13:04.63Z"
             },
             {
               "$type": "Document",
@@ -269,8 +263,7 @@
               "RelativeToolTip": "TestServiceGRPC\\Utils\\Extensions\\ServiceProviderExtensions.cs",
               "ViewState": "AQIAABMAAAAAAAAAAAAtwB4AAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-15T15:09:57.581Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-15T15:09:57.581Z"
             },
             {
               "$type": "Document",
@@ -282,12 +275,11 @@
               "RelativeToolTip": "TestServiceGRPC\\TestServiceGRPC.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-02-15T17:03:21.045Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-15T17:03:21.045Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "InMemorySessionPool.cs",
               "DocumentMoniker": "C:\\Users\\dionys.steffen\\source\\repos\\TestServiceGRPC\\TestServiceGRPC\\Model\\InMemorySessionPool.cs",
               "RelativeDocumentMoniker": "TestServiceGRPC\\Model\\InMemorySessionPool.cs",
@@ -295,8 +287,7 @@
               "RelativeToolTip": "TestServiceGRPC\\Model\\InMemorySessionPool.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-15T15:10:01.492Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-15T15:10:01.492Z"
             },
             {
               "$type": "Document",
@@ -308,12 +299,11 @@
               "RelativeToolTip": "TestServiceGRPC\\Model\\SessionDataWrapper.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-15T15:10:03.059Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-15T15:10:03.059Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "SessionMiddleware.cs",
               "DocumentMoniker": "C:\\Users\\dionys.steffen\\source\\repos\\TestServiceGRPC\\TestServiceGRPC\\Middleware\\SessionMiddleware.cs",
               "RelativeDocumentMoniker": "TestServiceGRPC\\Middleware\\SessionMiddleware.cs",
@@ -321,8 +311,7 @@
               "RelativeToolTip": "TestServiceGRPC\\Middleware\\SessionMiddleware.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-15T15:55:11.203Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-15T15:55:11.203Z"
             },
             {
               "$type": "Document",
@@ -334,8 +323,7 @@
               "RelativeToolTip": "CommonLib\\Model\\AppUserRole.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-15T16:50:59.979Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-15T16:50:59.979Z"
             },
             {
               "$type": "Document",
@@ -347,8 +335,7 @@
               "RelativeToolTip": "CommonLib\\Model\\AppUser.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-15T16:50:20.36Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-15T16:50:20.36Z"
             },
             {
               "$type": "Document",
@@ -360,25 +347,24 @@
               "RelativeToolTip": "Protos\\auth.proto",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
-              "WhenOpened": "2024-02-15T16:59:19.582Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-15T16:59:19.582Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 1,
               "Title": "greeter.proto",
               "DocumentMoniker": "C:\\Users\\dionys.steffen\\source\\repos\\TestServiceGRPC\\Protos\\greeter.proto",
               "RelativeDocumentMoniker": "Protos\\greeter.proto",
               "ToolTip": "C:\\Users\\dionys.steffen\\source\\repos\\TestServiceGRPC\\Protos\\greeter.proto",
               "RelativeToolTip": "Protos\\greeter.proto",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
               "WhenOpened": "2024-02-15T16:58:29.985Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "TokenService.cs",
               "DocumentMoniker": "C:\\Users\\dionys.steffen\\source\\repos\\TestServiceGRPC\\TestServiceGRPC\\Utils\\Services\\TokenService.cs",
               "RelativeDocumentMoniker": "TestServiceGRPC\\Utils\\Services\\TokenService.cs",
@@ -386,12 +372,11 @@
               "RelativeToolTip": "TestServiceGRPC\\Utils\\Services\\TokenService.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAAC4AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-15T15:34:39.384Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-15T15:34:39.384Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "AuthGrpc.cs",
               "DocumentMoniker": "C:\\Users\\dionys.steffen\\source\\repos\\TestServiceGRPC\\CommonLib\\obj\\Debug\\net8.0\\AuthGrpc.cs",
               "RelativeDocumentMoniker": "CommonLib\\obj\\Debug\\net8.0\\AuthGrpc.cs",
@@ -399,12 +384,11 @@
               "RelativeToolTip": "CommonLib\\obj\\Debug\\net8.0\\AuthGrpc.cs",
               "ViewState": "AQIAAEMAAAAAAAAAAAAewF0AAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-16T08:54:55.564Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-16T08:54:55.564Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "SessionService.cs",
               "DocumentMoniker": "C:\\Users\\dionys.steffen\\source\\repos\\TestServiceGRPC\\TestServiceGRPC\\Utils\\Services\\SessionService.cs",
               "RelativeDocumentMoniker": "TestServiceGRPC\\Utils\\Services\\SessionService.cs",
@@ -412,12 +396,11 @@
               "RelativeToolTip": "TestServiceGRPC\\Utils\\Services\\SessionService.cs",
               "ViewState": "AQIAAC4AAAAAAAAAAAAcwAQAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-15T15:44:43.479Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-15T15:44:43.479Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ApplicationBuilderExtensions.cs",
               "DocumentMoniker": "C:\\Users\\dionys.steffen\\source\\repos\\TestServiceGRPC\\TestServiceGRPC\\Utils\\Extensions\\ApplicationBuilderExtensions.cs",
               "RelativeDocumentMoniker": "TestServiceGRPC\\Utils\\Extensions\\ApplicationBuilderExtensions.cs",
@@ -425,12 +408,11 @@
               "RelativeToolTip": "TestServiceGRPC\\Utils\\Extensions\\ApplicationBuilderExtensions.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-16T09:03:02.063Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-16T09:03:02.063Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "AuthInterceptor.cs",
               "DocumentMoniker": "C:\\Users\\dionys.steffen\\source\\repos\\TestServiceGRPC\\TestConsoleClient\\AuthInterceptor.cs",
               "RelativeDocumentMoniker": "TestConsoleClient\\AuthInterceptor.cs",
@@ -438,8 +420,7 @@
               "RelativeToolTip": "TestConsoleClient\\AuthInterceptor.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-16T08:29:24.799Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-16T08:29:24.799Z"
             },
             {
               "$type": "Document",
@@ -451,8 +432,7 @@
               "RelativeToolTip": "TestServiceGRPC\\Properties\\launchSettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-02-15T17:40:46.443Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-15T17:40:46.443Z"
             },
             {
               "$type": "Document",
@@ -467,7 +447,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ClaimsPrincipalExtensions.cs",
               "DocumentMoniker": "C:\\Users\\dionys.steffen\\source\\repos\\TestServiceGRPC\\TestServiceGRPC\\Utils\\Extensions\\ClaimsPrincipalExtensions.cs",
               "RelativeDocumentMoniker": "TestServiceGRPC\\Utils\\Extensions\\ClaimsPrincipalExtensions.cs",
@@ -475,8 +455,7 @@
               "RelativeToolTip": "TestServiceGRPC\\Utils\\Extensions\\ClaimsPrincipalExtensions.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-15T15:09:23.398Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-15T15:09:23.398Z"
             },
             {
               "$type": "Document",
@@ -488,8 +467,7 @@
               "RelativeToolTip": "TestServiceGRPC\\Utils\\Extensions\\JwtBearerOptionsExtensions.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-15T15:09:25.229Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-15T15:09:25.229Z"
             },
             {
               "$type": "Document",
@@ -501,8 +479,7 @@
               "RelativeToolTip": "TestServiceGRPC\\Utils\\Extensions\\AuthorizationOptionsExtensions.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-15T15:09:21.202Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-15T15:09:21.202Z"
             },
             {
               "$type": "Document",
@@ -514,8 +491,7 @@
               "RelativeToolTip": "CommonLib\\CommonLib.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-02-15T17:03:11.96Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-15T17:03:11.96Z"
             },
             {
               "$type": "Document",
@@ -527,8 +503,7 @@
               "RelativeToolTip": "TestServiceGRPC\\Hubs\\SessionPersistenceHub.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-15T15:08:52.357Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-15T15:08:52.357Z"
             },
             {
               "$type": "Document",
@@ -540,8 +515,7 @@
               "RelativeToolTip": "TestServiceGRPC\\Utils\\RequireRoleAttribute.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-15T15:23:18.238Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-15T15:23:18.238Z"
             },
             {
               "$type": "Document",
@@ -553,8 +527,7 @@
               "RelativeToolTip": "CommonLib\\Model\\SessionData.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-15T16:28:11.084Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-15T16:28:11.084Z"
             },
             {
               "$type": "Document",
@@ -566,8 +539,7 @@
               "RelativeToolTip": "TestServiceGRPC\\Utils\\LoginContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABTAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-15T15:23:11.472Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-15T15:23:11.472Z"
             },
             {
               "$type": "Document",
@@ -579,8 +551,7 @@
               "RelativeToolTip": "TestServiceGRPC\\Utils\\Services\\RefGuidService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-15T16:12:02.998Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-15T16:12:02.998Z"
             },
             {
               "$type": "Document",
@@ -592,8 +563,7 @@
               "RelativeToolTip": "TestServiceGRPC\\Utils\\AutoMapperProfiles.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-15T15:23:20.488Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-15T15:23:20.488Z"
             },
             {
               "$type": "Document",
@@ -605,8 +575,7 @@
               "RelativeToolTip": "TestServiceGRPC\\Utils\\Extensions\\StringExtensions.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-15T15:43:27.582Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-15T15:43:27.582Z"
             }
           ]
         }

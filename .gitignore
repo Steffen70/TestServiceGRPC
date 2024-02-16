@@ -25,7 +25,6 @@
 TestResults
 
 # Build Results
-[Bb]in/
 [Oo]bj/
 packages/
 
@@ -74,3 +73,6 @@ publish/
 
 # Temporarily tracking database files for development purposes
 #*.db*
+
+# Temporarily tracking bin folder for development purposes
+#[Bb]in/
