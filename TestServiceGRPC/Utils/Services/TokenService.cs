@@ -7,7 +7,7 @@ using TestServiceGRPC.Utils.Extensions;
 
 namespace TestServiceGRPC.Utils.Services;
 
-public class TokenService<TSessionData> where TSessionData : class, new()
+public class TokenService
 {
     private readonly RefGuidService _dataReference;
 
@@ -26,13 +26,13 @@ public class TokenService<TSessionData> where TSessionData : class, new()
             new(JwtRegisteredClaimNames.NameId, user.Id.ToString()),
             new(ClaimTypes.Role, user.UserRole.ToString()),
 
-            new(SessionMiddleware<TSessionData>.GuidIdentifier, _dataReference.Value.ToString()!),
+            new(SessionMiddleware<object>.GuidIdentifier, _dataReference.Value.ToString()!),
 
             // Add salt to make the token unique
             new(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
         };
 
-        var creds = new SigningCredentials(TokenKey, SecurityAlgorithms.HmacSha512Signature);
+        var creds = new SigningCredentials(TokenKey, SecurityAlgorithms.HmacSha256Signature);
         var tokenDescriptor = new SecurityTokenDescriptor
         {
             Subject = new ClaimsIdentity(claims),

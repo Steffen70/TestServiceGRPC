@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "JNWu/Neu2+Jd5Uet870hQhJA5hejseQtQUX3OqTCJBp2msWkSFCvjeKi1YE90yBAAbPN3TvBcsxzFZSbKqRgIw==",
+  "dgSpecHash": "WIXFa09paw0B9BsENd/GyK6LKj38JqOv9ilxU4GV4HPXLg5BubujzuE8ekmADmqCw37JtsRLdhzJ5g/45n47fQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\dionys.steffen\\source\\repos\\TestServiceGRPC\\TestConsoleClient\\TestConsoleClient.csproj",
   "expectedPackageFiles": [
@@ -13,17 +13,24 @@
     "C:\\Users\\dionys.steffen\\.nuget\\packages\\grpc.net.clientfactory\\2.49.0\\grpc.net.clientfactory.2.49.0.nupkg.sha512",
     "C:\\Users\\dionys.steffen\\.nuget\\packages\\grpc.net.common\\2.49.0\\grpc.net.common.2.49.0.nupkg.sha512",
     "C:\\Users\\dionys.steffen\\.nuget\\packages\\grpc.tools\\2.49.0\\grpc.tools.2.49.0.nupkg.sha512",
-    "C:\\Users\\dionys.steffen\\.nuget\\packages\\microsoft.extensions.configuration\\3.0.3\\microsoft.extensions.configuration.3.0.3.nupkg.sha512",
-    "C:\\Users\\dionys.steffen\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.0.3\\microsoft.extensions.configuration.abstractions.3.0.3.nupkg.sha512",
-    "C:\\Users\\dionys.steffen\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.0.3\\microsoft.extensions.configuration.binder.3.0.3.nupkg.sha512",
-    "C:\\Users\\dionys.steffen\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.0.3\\microsoft.extensions.dependencyinjection.3.0.3.nupkg.sha512",
-    "C:\\Users\\dionys.steffen\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.0.3\\microsoft.extensions.dependencyinjection.abstractions.3.0.3.nupkg.sha512",
+    "C:\\Users\\dionys.steffen\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\8.0.2\\microsoft.aspnetcore.connections.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\dionys.steffen\\.nuget\\packages\\microsoft.aspnetcore.http.connections.client\\8.0.2\\microsoft.aspnetcore.http.connections.client.8.0.2.nupkg.sha512",
+    "C:\\Users\\dionys.steffen\\.nuget\\packages\\microsoft.aspnetcore.http.connections.common\\8.0.2\\microsoft.aspnetcore.http.connections.common.8.0.2.nupkg.sha512",
+    "C:\\Users\\dionys.steffen\\.nuget\\packages\\microsoft.aspnetcore.signalr.client\\8.0.2\\microsoft.aspnetcore.signalr.client.8.0.2.nupkg.sha512",
+    "C:\\Users\\dionys.steffen\\.nuget\\packages\\microsoft.aspnetcore.signalr.client.core\\8.0.2\\microsoft.aspnetcore.signalr.client.core.8.0.2.nupkg.sha512",
+    "C:\\Users\\dionys.steffen\\.nuget\\packages\\microsoft.aspnetcore.signalr.common\\8.0.2\\microsoft.aspnetcore.signalr.common.8.0.2.nupkg.sha512",
+    "C:\\Users\\dionys.steffen\\.nuget\\packages\\microsoft.aspnetcore.signalr.protocols.json\\8.0.2\\microsoft.aspnetcore.signalr.protocols.json.8.0.2.nupkg.sha512",
+    "C:\\Users\\dionys.steffen\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\dionys.steffen\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\dionys.steffen\\.nuget\\packages\\microsoft.extensions.features\\8.0.2\\microsoft.extensions.features.8.0.2.nupkg.sha512",
     "C:\\Users\\dionys.steffen\\.nuget\\packages\\microsoft.extensions.http\\3.0.3\\microsoft.extensions.http.3.0.3.nupkg.sha512",
-    "C:\\Users\\dionys.steffen\\.nuget\\packages\\microsoft.extensions.logging\\3.0.3\\microsoft.extensions.logging.3.0.3.nupkg.sha512",
-    "C:\\Users\\dionys.steffen\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.0.3\\microsoft.extensions.logging.abstractions.3.0.3.nupkg.sha512",
-    "C:\\Users\\dionys.steffen\\.nuget\\packages\\microsoft.extensions.options\\3.0.3\\microsoft.extensions.options.3.0.3.nupkg.sha512",
-    "C:\\Users\\dionys.steffen\\.nuget\\packages\\microsoft.extensions.primitives\\3.0.3\\microsoft.extensions.primitives.3.0.3.nupkg.sha512",
-    "C:\\Users\\dionys.steffen\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+    "C:\\Users\\dionys.steffen\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0\\microsoft.extensions.logging.8.0.0.nupkg.sha512",
+    "C:\\Users\\dionys.steffen\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\dionys.steffen\\.nuget\\packages\\microsoft.extensions.options\\8.0.2\\microsoft.extensions.options.8.0.2.nupkg.sha512",
+    "C:\\Users\\dionys.steffen\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\dionys.steffen\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512",
+    "C:\\Users\\dionys.steffen\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\dionys.steffen\\.nuget\\packages\\system.threading.channels\\8.0.0\\system.threading.channels.8.0.0.nupkg.sha512"
   ],
   "logs": []
 }

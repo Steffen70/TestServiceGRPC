@@ -28,7 +28,7 @@ public class GreeterService : Greeter.GreeterBase
     {
         _sessionData.Quote = request.Quote;
 
-        return base.ChangeQuote(request, context);
+        return Task.FromResult(new Empty());
     }
 
     private DataTable GetHardcodedDataTable(string inputName)

@@ -17,10 +17,10 @@ public class AuthService : Auth.AuthBase
 {
     private readonly LoginContext _loginContext;
     private readonly IMapper _mapper;
-    private readonly TokenService<SessionData> _tokenService;
+    private readonly TokenService _tokenService;
     private readonly SessionService<SessionData> _sessionService;
 
-    public AuthService(LoginContext loginContext, IMapper mapper, TokenService<SessionData> tokenService, SessionService<SessionData> sessionService)
+    public AuthService(LoginContext loginContext, IMapper mapper, TokenService tokenService, SessionService<SessionData> sessionService)
     {
         _loginContext = loginContext;
         _mapper = mapper;

@@ -21,7 +21,7 @@ public class SessionMiddleware<TSessionData> where TSessionData : class, new()
 
     public SessionMiddleware(RequestDelegate next) => _next = next;
 
-    public async Task InvokeAsync(HttpContext context, SessionService<TSessionData> sessionService, TokenService<TSessionData> tokenService, LoginContext loginContext, RefGuidService dataReference)
+    public async Task InvokeAsync(HttpContext context, SessionService<TSessionData> sessionService, TokenService tokenService, LoginContext loginContext, RefGuidService dataReference)
     {
         var (path, method) = (context.Request.Path, context.Request.Method);
 
@@ -38,7 +38,7 @@ public class SessionMiddleware<TSessionData> where TSessionData : class, new()
         Console.WriteLine($@"Request {method} {path} authorized endpoint");
 
         // Retrieve the data reference from the JWT token
-        dataReference.Value = context.User.GetDataReference<TSessionData>();
+        dataReference.Value = context.User.GetDataReference();
 
         Console.ForegroundColor = ConsoleColor.White;
 

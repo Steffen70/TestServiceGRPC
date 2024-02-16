@@ -5,7 +5,6 @@ using Microsoft.EntityFrameworkCore;
 using TestServiceGRPC.Hubs;
 using TestServiceGRPC.Middleware;
 using TestServiceGRPC.Model;
-using TestServiceGRPC.Services;
 using TestServiceGRPC.Utils;
 using TestServiceGRPC.Utils.Extensions;
 using TestServiceGRPC.Utils.Services;
@@ -26,10 +25,10 @@ builder.Services.AddScoped<SessionService<SessionData>>();
 
 builder.Services.AddScoped(ServiceProviderExtensions.GetSessionData<SessionData>);
 
-builder.Services.AddTransient<TokenService<SessionData>>();
+builder.Services.AddTransient<TokenService>();
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-    .AddJwtBearer(options => options.ConfigureJwtBearer(TokenService<SessionData>.TokenKey));
+    .AddJwtBearer(options => options.ConfigureJwtBearer(TokenService.TokenKey));
 
 builder.Services.AddSingleton<IAuthorizationPolicyProvider, RoleBasedAuthorizationPolicyProvider>();
 
@@ -46,6 +45,7 @@ var app = builder.Build();
 // Current seeded user is steffen@seventy.mx with password "bentclub72"
 app.Services.SeedDataBase();
 
+// Configure the HTTP request pipeline.
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
@@ -54,8 +54,7 @@ app.UseMiddleware<SessionMiddleware<SessionData>>();
 
 app.MapHub<SessionPersistenceHub<SessionData>>("/hubs/session-hub");
 
-// Configure the HTTP request pipeline.
-app.MapGrpcService<GreeterService>();
+app.MapGrpcServices();
 
 app.MapControllers();
 
