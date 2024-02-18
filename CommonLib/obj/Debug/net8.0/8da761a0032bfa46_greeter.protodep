@@ -1,3 +1,0 @@
-obj\Debug\net8.0/Greeter.cs \
-obj\Debug\net8.0/GreeterGrpc.cs: C:/Users/dionys.steffen/.nuget/packages/grpc.tools/2.49.0/build/native/include/google/protobuf/empty.proto\
- ../Protos/greeter.proto

@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net8.0;net8.0-windows</TargetFrameworks>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="mkdir ..\..\shared\$(TargetFramework)\$(Configuration)" ContinueOnError="true" />
+
+    <Exec Command="copy $(OutputPath)$(TargetName).dll ..\..\shared\$(TargetFramework)\$(Configuration)" />
+
+    <Exec Command="copy $(OutputPath)$(TargetName).pdb ..\..\shared\$(TargetFramework)\$(Configuration)" Condition="'$(Configuration)' == 'Debug'" />
+  </Target>
+
+
+  <ItemGroup>
+    <Protobuf Include="..\..\protos\*.proto" GrpcServices="Both" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Grpc.AspNetCore" Version="2.60.0" />
+  </ItemGroup>
+
+</Project>
