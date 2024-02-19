@@ -11,6 +11,8 @@ service Greeter {
   // Sends a greeting
   rpc SayHello (HelloRequest) returns (TableReply);
 
+  rpc SayHelloStream (HelloRequest) returns (stream TableRow);
+
   rpc ChangeQuote (ChangeQuoteRequest) returns (google.protobuf.Empty);
 }
 

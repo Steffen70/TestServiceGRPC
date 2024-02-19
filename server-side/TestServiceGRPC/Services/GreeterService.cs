@@ -21,7 +21,21 @@ public class GreeterService : Greeter.GreeterBase
 
         var reply = dataTable.ToTableReply();
 
+        var rows = reply.Rows;
+
         return Task.FromResult(reply);
+    }
+
+    public override async Task SayHelloStream(HelloRequest request, IServerStreamWriter<TableRow> responseStream, ServerCallContext context)
+    {
+        var dataTable = GetHardcodedDataTable(request.Name);
+        var reply = dataTable.ToTableReply();
+
+        foreach (var row in reply.Rows)
+        {
+            await responseStream.WriteAsync(row);
+            await Task.Delay(TimeSpan.FromSeconds(1));
+        }
     }
 
     public override Task<Empty> ChangeQuote(ChangeQuoteRequest request, ServerCallContext context)

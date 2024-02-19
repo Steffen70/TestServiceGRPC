@@ -29,6 +29,23 @@ public static class DataTableConversionExtensions
         return dataTable;
     }
 
+    public static DataRow AddTableRow(this DataTable dataTable, TableRow tableRow)
+    {
+        // Todo: Add support form other data types
+        foreach (var columnValue in tableRow.Columns)
+            if (!dataTable.Columns.Contains(columnValue.Column))
+                dataTable.Columns.Add(columnValue.Column, typeof(string));
+
+        var dataRow = dataTable.NewRow();
+
+        foreach (var columnValue in tableRow.Columns)
+            dataRow[columnValue.Column] = columnValue.Value;
+
+        dataTable.Rows.Add(dataRow);
+
+        return dataRow;
+    }
+
     // Converts a DataTable to a TableReply
     public static TableReply ToTableReply(this DataTable dataTable)
     {
