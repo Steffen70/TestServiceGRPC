@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Authorization;
 using TestServiceGRPC.Utils.Extensions;
 using TestServiceGRPC.Utils.Services;
 using Microsoft.EntityFrameworkCore;
-using TestServiceGRPC.Utils;
+using TestServiceGRPC.Model;
 
 namespace TestServiceGRPC.Services;
 
@@ -57,7 +57,14 @@ public class AuthService : Auth.AuthBase
 
         _loginContext.Attach(user);
 
-        user.TokenChecksum = loginResponseDto.Token.GetMd5Checksum();
+        // Load the session tokens of the user
+        await _loginContext.Entry(user).Collection(u => u.SessionTokens).LoadAsync();
+
+        // Clean up old tokens
+        var oldTokens = user.SessionTokens.Where(t => t.CreatedAt < DateTime.Now.AddDays(-TokenService.TokenExpirationDays)).ToList();
+        _loginContext.RemoveRange(oldTokens);
+
+        user.SessionTokens.Add(new SessionToken { TokenChecksum = loginResponseDto.Token.GetChecksum() });
 
         await _loginContext.SaveChangesAsync();
 
@@ -84,7 +91,8 @@ public class AuthService : Auth.AuthBase
 
         // Update the token checksum in the database to invalidate all other tokens
         _loginContext.Attach(appUser);
-        appUser.TokenChecksum = newToken.GetMd5Checksum();
+
+        appUser.SessionTokens.Add(new SessionToken { TokenChecksum = newToken.GetChecksum() });
         await _loginContext.SaveChangesAsync();
 
         var loginResponseDto = new LoginResponse { Token = newToken };

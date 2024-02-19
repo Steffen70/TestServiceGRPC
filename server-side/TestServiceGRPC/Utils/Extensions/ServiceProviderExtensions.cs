@@ -1,5 +1,6 @@
 ﻿using CommonLib.Model;
 using Microsoft.EntityFrameworkCore;
+using TestServiceGRPC.Model;
 using TestServiceGRPC.Services;
 using TestServiceGRPC.Utils.Services;
 

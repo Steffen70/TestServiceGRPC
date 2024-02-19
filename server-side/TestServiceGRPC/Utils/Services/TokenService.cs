@@ -3,12 +3,15 @@ using System.Security.Claims;
 using CommonLib.Model;
 using Microsoft.IdentityModel.Tokens;
 using TestServiceGRPC.Middleware;
+using TestServiceGRPC.Model;
 using TestServiceGRPC.Utils.Extensions;
 
 namespace TestServiceGRPC.Utils.Services;
 
 public class TokenService
 {
+    internal const int TokenExpirationDays = 7;
+
     private readonly RefGuidService _dataReference;
 
     public TokenService(RefGuidService dataReference) => _dataReference = dataReference;
@@ -37,7 +40,7 @@ public class TokenService
         {
             Subject = new ClaimsIdentity(claims),
             // Todo: Make the token expiration time configurable
-            Expires = DateTime.Now.AddDays(7),
+            Expires = DateTime.Now.AddDays(TokenExpirationDays),
             SigningCredentials = creds
         };
 
@@ -51,7 +54,7 @@ public class TokenService
     {
         var appUser = context.User.GetAppUser(loginContext);
 
-        if (appUser?.TokenChecksum == null)
+        if (appUser.SessionTokens.Count == 0)
         {
             context.Response.StatusCode = StatusCodes.Status401Unauthorized;
             throw new Exception("Token is invalid!");
@@ -63,9 +66,9 @@ public class TokenService
         // If not, check if the token is in the query string (used for SignalR hubs)
         var bearerString = bearerValue.FirstOrDefault() ?? $"Bearer {context.Request.Query["access_token"]}";
 
-        var checksum = bearerString.GetMd5Checksum();
+        var checksum = bearerString.GetChecksum();
 
-        if (checksum == appUser.TokenChecksum) return appUser;
+        if (appUser.SessionTokens.Any(s => s.TokenChecksum == checksum)) return appUser;
 
         context.Response.StatusCode = StatusCodes.Status401Unauthorized;
         throw new Exception("Token is invalid!");

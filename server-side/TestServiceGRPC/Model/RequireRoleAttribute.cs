@@ -1,7 +1,7 @@
 ﻿using CommonLib.Model;
 using Microsoft.AspNetCore.Authorization;
 
-namespace TestServiceGRPC.Utils;
+namespace TestServiceGRPC.Model;
 
 public class RequireRoleAttribute : AuthorizeAttribute
 {

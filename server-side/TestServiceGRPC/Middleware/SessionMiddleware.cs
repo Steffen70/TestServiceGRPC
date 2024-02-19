@@ -2,7 +2,7 @@
 using System.Text.Json.Serialization;
 using System.Text.RegularExpressions;
 using Microsoft.AspNetCore.Authorization;
-using TestServiceGRPC.Utils;
+using TestServiceGRPC.Model;
 using TestServiceGRPC.Utils.Extensions;
 using TestServiceGRPC.Utils.Services;
 

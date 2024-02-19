@@ -8,13 +8,12 @@ public class AppUser
     public Guid Id { get; set; }
     public string Email { get; set; } = null!;
 
-    public string? TokenChecksum { get; set; }
-
     public AppUserRole UserRole { get; set; } = AppUserRole.Member;
 
     public string PasswordHash { get; set; } = null!;
     public string PasswordSalt { get; set; } = null!;
 
+    public List<SessionToken> SessionTokens { get; set; } = new();
 
     public static AppUser Create(string email, string password, AppUserRole userRole = AppUserRole.Member)
     {
