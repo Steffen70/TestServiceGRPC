@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestFormsClient", "TestForm
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestConsoleClient", "TestConsoleClient\TestConsoleClient.csproj", "{2B3431B1-4D18-4DA6-9D7C-F8E50AE28E78}"
 EndProject
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "TestFormsClientVB", "TestFormsClientVB\TestFormsClientVB.vbproj", "{7B075A8A-83D3-45AA-BD1C-B40485469ABD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{2B3431B1-4D18-4DA6-9D7C-F8E50AE28E78}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B3431B1-4D18-4DA6-9D7C-F8E50AE28E78}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B3431B1-4D18-4DA6-9D7C-F8E50AE28E78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B075A8A-83D3-45AA-BD1C-B40485469ABD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B075A8A-83D3-45AA-BD1C-B40485469ABD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B075A8A-83D3-45AA-BD1C-B40485469ABD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B075A8A-83D3-45AA-BD1C-B40485469ABD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
